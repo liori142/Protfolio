@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet"
+        href="https://d19m59y37dris4.cloudfront.net/it-worker/2-1/vendor/font-awesome/css/font-awesome.min.css">
+    <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <!-- Font awesome -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="index.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item active" id="homeID">
+                    <a class="nav-link" href="#summaryId">Home</a>
+                </li>
+                <li class="nav-item" id="aboutID">
+                    <a class="nav-link" href="#aboutId">About Me</a>
+                </li>
+                <li class="nav-item" id="projectsID">
+                    <a class="nav-link" href="#projectsId">My Projects</a>
+                </li>
+                <li class="nav-item" id="contactID">
+                    <a class="nav-link" href="#contactId">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Summary Section -->
+    <header id="summaryId">
+        <p id="pID"></p>
+    </header>
+
+    <!-- About Section -->
+    <section id="aboutId">
+        <div id="h1Div">
+            <h2>About Me</h2>
+        </div>
+        <div id="container" class="row">
+            <div id="contentDivId" class="col-xl-6 col-lg-6">
+                <p>Hey, My name is Lior, and i live in Israel.<br>
+                    In the last 2 years i have been learning many courses
+                    ,read alot about programming languages,
+                    and i have done some projects.
+                    I really motivated to explore,
+                    create websites and to bring myself
+                    into the coding world.
+                </p>
+            </div>
+
+            <div id="skillsId" class="col-xl-6 col-lg-6">
+                <h3>My Skills</h3>
+                <!-- Row1 -->
+                <div class="checkDiv">
+                    <h5>HTML</h5>
+                    <img src="myFiles/checkbox.png" alt="">
+                </div>
+                <div class="checkDiv">
+                    <h5>CSS</h5>
+                    <img src="myFiles/checkbox.png" alt="">
+                </div>
+                <!-- Row2 -->
+                <div class="checkDiv">
+                    <h5>BootStrap</h5>
+                    <img src="myFiles/checkbox.png" alt="">
+                </div>
+                <div class="checkDiv">
+                    <h5>JavaScript</h5>
+                    <img src="myFiles/checkbox.png" alt="">
+                </div>
+                <div class="checkDiv">
+                    <h5>Jquery</h5>
+                    <img src="myFiles/checkbox.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="picDivId">
+            <img id="myPicId" src="myFiles/myPic1.png" alt="">
+        </div>
+    </section>
+
+    <!-- My Projects section -->
+
+    <div id="projectsId">
+        <div class="py-5 text-center">
+            <h2 class="m-auto">My Projects</h2>
+        </div>
+
+        <div class="row container-1 justify-content-center py-5">
+            <div class="container-fluid1 col-xl-4 col-md-5 col-sm-8 my-3 simon" id="simon">
+                <img src="myFiles/simonImg.png" alt="Avatar" class="projectImg">
+                <div class="overlay">
+                    <div class="text">Simon Game</div>
+                </div>
+            </div>
+
+            <div class="container-fluid1 col-xl-4 col-md-5 col-sm-8 my-3 tictactoe" id='tictactoe'>
+                <img src="myFiles/ticImg.png" alt="Avatar" class="projectImg">
+                <div class="overlay">
+                    <div class="text">Tic Tac Toe</div>
+                </div>
+            </div>
+
+            <div class="container-fluid1 col-xl-4 col-md-5 col-sm-8 my-3 weather" id='weather'>
+                <img src="myFiles/weatherImg.png" alt="Avatar" class="projectImg">
+                <div class="overlay">
+                    <div class="text">Weather Live Updates</div>
+                </div>
+            </div>
+
+            <div class="container-fluid1 col-xl-4 col-md-5 col-sm-8 my-3 calculator" id='calc'>
+                <img src="myFiles/calcImg.png" alt="Avatar" class="projectImg">
+                <div class="overlay">
+                    <div class="text">Calculator</div>
+                </div>
+            </div>
+
+            <div class="container-fluid1 col-xl-4 col-md-5 col-sm-8 my-3 corona" id="corona">
+                <img src="myFiles/coronaImg.png" alt="Avatar" class="projectImg">
+                <div class="overlay">
+                    <div class="text">Corona Live Updates</div>
+                </div>
+            </div>
+
+            <div class="container-fluid1 col-xl-4 col-md-5 col-sm-8 my-3 notes" id="notes">
+                <img src="myFiles/notesImg.png" alt="Avatar" class="projectImg">
+                <div class="overlay">
+                    <div class="text">Add Notes</div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+<!-- Contact Sections -->
+        <section class="container contactClass" id="contactId">
+            <div class="my-5">
+                <h2 class="title m-auto">Contact Me</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="contact-form" onsubmit="return false">
+                        <div class="messages"></div>
+                        <div class="controls">
+                            <div class="row">
+                                <div class="col-md-6 py-3">
+                                    <input type="text" name="name" placeholder="Your firstname *" required="required"
+                                        class="form-control">
+                                </div>
+                                <div class="col-md-6 py-3">
+                                    <input type="text" name="surname" placeholder="Your lastname *" required="required"
+                                        class="form-control">
+                                </div>
+                                <div class="col-md-6 py-3">
+                                    <input type="text" name="email" placeholder="Your email *" required="required"
+                                        class="form-control">
+                                </div>
+                                <div class="col-md-6 py-3">
+                                    <input type="text" name="phone" placeholder="Your phone" class="form-control">
+                                </div>
+                                <div class="col-md-12 py-3">
+                                    <textarea name="message" placeholder="Message for me *" rows="8" required="required"
+                                        class="form-control"></textarea>
+                                </div>
+                                <div class="col-md-12 text-center py-3 mb-5">
+                                    <button type="submit" class="btn btn-outline-dark btn-light">Send message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="main-footer py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-lg-left">
+                        <p class="social">
+
+                            <a href="https://www.linkedin.com/in/lior-mazig-812836176" class="linkedin fadeInUp"><i
+                                    class="fa fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/liormazig1" class="instagram fadeInUp"><i
+                                    class="fa fa-instagram"></i></a>
+                            <a href="https://github.com/liori142" class="github fadeInUp"><i class="fa fa-github"
+                                    aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/lior.mazig" class="facebook fadeInUp"><i
+                                    class="fa fa-facebook" aria-hidden="true"></i></a></p>
+                    </div>
+                    <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-3">
+                        <p>© 2020 Lior Mazig. All rights reserved.</p>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+
+</body>
+<script src="index.js"></script>
+<script>
+    let p = 'I grind HTML and CSS and then weld them with JavaScript into amazing websites.';
+    writeMessage(p);
+
+    function writeMessage(string) {
+        var i = 0,
+            intervalId = window.setInterval(() => {
+                pID.innerHTML += string.charAt(i++);
+                if (i > string.length)
+                    window.clearInterval(intervalId);
+            }, 50);
+    }
+</script>
+
+</html>
