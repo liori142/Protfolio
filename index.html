@@ -185,7 +185,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <form id="contact-form" onsubmit="return false">
+                    <form id="contact-form" onsubmit="return submitHandler()">
                         <div class="messages"></div>
                         <div class="controls">
                             <div class="row">
@@ -248,6 +248,16 @@
     let p = 'I grind HTML and CSS and then weld them with JavaScript into amazing websites.';
     writeMessage(p);
 
+        function  submitHandler(){
+     let inputs = document.getElementsByClassName('form-control');
+     inputs[0].value = ''
+     inputs[1].value = ''
+     inputs[2].value = ''
+     inputs[3].value = ''
+     inputs[4].value = ''
+     alert('Thanks!')
+    return false
+    }
     function writeMessage(string) {
         var i = 0,
             intervalId = window.setInterval(() => {
