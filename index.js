@@ -1,10 +1,10 @@
 let myProjects = [
-    ['weather', 'https://livecoronalm.000webhostapp.com/WebWeather/index.html'],
-    ['notes', 'https://livecoronalm.000webhostapp.com/WebTasks/index.html'],
-    ['calc', 'https://livecoronalm.000webhostapp.com/WebCalculator/calculator.html'],
+    ['weather', 'https://liori142.github.io/Weather/'],
+    ['notes', 'https://liori142.github.io/barber-daily-tasks/'],
+    ['movies', 'https://liori142.github.io/Movies-Project/'],
     ['corona', 'https://covid19aliveupdates.com'],
-    ['simon', 'https://livecoronalm.000webhostapp.com/Simon%20Game'],
-    ['tictactoe', 'https://livecoronalm.000webhostapp.com/WebTicTacToe/ticTacToe.html'],
+    ['simon', 'https://liori142.github.io/Simon-Game/'],
+    ['memories', 'https://memories-lior-mazig.netlify.app/'],
 ]
 
 let summaryHeight = summaryId.offsetHeight;
@@ -48,4 +48,3 @@ evFunc(myProjects);
 
 
 
-// document.getElementsByTagName('a')[0].addEventListener('click',(e)=> window.location.replace('index.html'))
